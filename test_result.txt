@@ -1,0 +1,28 @@
+jose@jose-SonyVaio:~/Escritorio/prct05$ ruby ./tc_racional.rb
+Run options: 
+
+# Running tests:
+
+FF
+
+Finished tests in 0.000765s, 2615.2748 tests/s, 5230.5495 assertions/s.
+
+  1) Failure:
+test_simple(Test_Fraccion) [./tc_racional.rb:8]:
+[ArgumentError] exception expected, not
+Class: <TypeError>
+Message: <"El denominador no puede ser 0">
+---Backtrace---
+/home/jose/Escritorio/prct05/racional.rb:9:in `initialize'
+./tc_racional.rb:8:in `new'
+./tc_racional.rb:8:in `block in test_simple'
+---------------
+
+  2) Failure:
+test_simple2(Test_Fraccion) [./tc_racional.rb:16]:
+<"1/15"> expected but was
+<"0/1">.
+
+2 tests, 4 assertions, 2 failures, 0 errors, 0 skips
+jose@jose-SonyVaio:~/Escritorio/prct05$ 
+
